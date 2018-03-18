@@ -1,0 +1,19 @@
+{% extends "file.html" %}
+			{% block body %}
+<div >
+	<h1 align= "center"> Greetings Sir! </h1>
+	<br>
+
+	<br><br><br><br>
+	
+	<h3><a style="color:#e5474b;" href= "{{ url_for('news_api') }}"> Click here </a> to visit see the latest tech news grabbed by the news API.
+	<br><br>
+	<a  style="color:#e5474b;"  href= "{{ url_for('slider') }}">Click here </a>to see the slider the created using react.
+	<br>
+
+	
+	</h3>
+</div>
+<div>
+
+        {% endblock %}

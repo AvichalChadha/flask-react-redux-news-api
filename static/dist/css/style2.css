@@ -1,0 +1,118 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  color: #1b1b1b;
+}
+
+.item_slider {
+  height:700px;
+  background-size: cover !important;
+  background-position: center center !important ;
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.item_slider .caption {
+    color:  #FFFFFF;
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+    text-align: right;
+    width: 320px;
+    text-transform: uppercase;
+}
+
+
+/* I am removing the text from the slider in the mobile site */
+@media screen and (max-width: 600px) {
+.pic1{
+    visibility: hidden;  
+    font-weight: 700;
+    font-size:40;
+    margin: 0px;
+    color:  #FFFFFF;
+    text-align: center;   
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom:  120px;
+    left:310px;
+}
+}
+
+
+
+.item_slider .caption p {
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+.pic2{
+ visibility: hidden;
+  font-weight: 700;
+    font-size:40;
+    margin: 0px;
+    color:  #FFFFFF;
+    text-align: center;    
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom:  120px;
+    left:310px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.pic3{
+    visibility: hidden;
+    font-weight: 700;
+    font-size:40;
+    margin: 0px;
+    color:  #FFFFFF;
+    text-align: center;    
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom:  380px;
+    left:210px;
+}
+}
+
+
+.pic1{
+    font-weight: 700;
+    font-size:40;
+    margin: 0px;
+    color:  #FFFFFF;
+    text-align: center;    
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom:  120px;
+    left:415px;
+}
+
+.pic2{
+
+  font-weight: 700;
+    font-size:40;
+    margin: 0px;
+    color:  #FFFFFF;
+    text-align: center;    
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom:  120px;
+    left:310px;
+
+}
+
+.pic3{
+    font-weight: 700;
+    font-size:50;
+    margin: 0px;
+    color:  #FFFFFF;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    bottom:  300px;
+    left:210px;
+}
